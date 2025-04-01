@@ -11,4 +11,4 @@ COPY src/ /app/
 RUN javac *.java
 
 # Set the default command to run the Java program (assuming you want to run HelloWorld)
-CMD ["java", "HelloWorld"]
+CMD ["java", "Main.java"]
